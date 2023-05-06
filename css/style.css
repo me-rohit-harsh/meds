@@ -1446,8 +1446,7 @@ input.search-text {
     background: url(https://me-rohit-harsh.github.io/meds/icons/search-interface-symbol.png) left 9px center/24px no-repeat
 }
 
-input.search-text:focus,
-input.search-text:hover {
+input.search-text {
     z-index: 3;
     width: 250px;
     border: 1px solid #666;
