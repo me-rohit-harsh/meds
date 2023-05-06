@@ -621,7 +621,7 @@ hr {
 }
 
 .testim .arrow:hover {
-    color: #e71a33
+    color: #9E1F64
 }
 
 .testim .arrow.left {
@@ -659,8 +659,8 @@ hr {
 
 .testim .dots .dot.active,
 .testim .dots .dot:hover {
-    background: #e71a33;
-    border-color: #e71a33
+    background: #9E1F64;
+    border-color: #9E1F64
 }
 
 .testim .dots .dot.active {
@@ -779,13 +779,13 @@ hr {
     }
 
     70% {
-        -webkit-box-shadow: 0 0 10px 5px #e71a33;
-        box-shadow: 0 0 10px 5px #e71a33
+        -webkit-box-shadow: 0 0 10px 5px #9E1F64;
+        box-shadow: 0 0 10px 5px #9E1F64
     }
 
     100% {
-        -webkit-box-shadow: 0 0 0 0 #e71a33;
-        box-shadow: 0 0 0 0 #e71a33
+        -webkit-box-shadow: 0 0 0 0 #9E1F64;
+        box-shadow: 0 0 0 0 #9E1F64
     }
 }
 
@@ -801,13 +801,13 @@ hr {
     }
 
     70% {
-        -moz-box-shadow: 0 0 10px 5px #e71a33;
-        box-shadow: 0 0 10px 5px #e71a33
+        -moz-box-shadow: 0 0 10px 5px #9E1F64;
+        box-shadow: 0 0 10px 5px #9E1F64
     }
 
     100% {
-        -moz-box-shadow: 0 0 0 0 #e71a33;
-        box-shadow: 0 0 0 0 #e71a33
+        -moz-box-shadow: 0 0 0 0 #9E1F64;
+        box-shadow: 0 0 0 0 #9E1F64
     }
 }
 
@@ -823,13 +823,13 @@ hr {
     }
 
     70% {
-        -ms-box-shadow: 0 0 10px 5px #e71a33;
-        box-shadow: 0 0 10px 5px #e71a33
+        -ms-box-shadow: 0 0 10px 5px #9E1F64;
+        box-shadow: 0 0 10px 5px #9E1F64
     }
 
     100% {
-        -ms-box-shadow: 0 0 0 0 #e71a33;
-        box-shadow: 0 0 0 0 #e71a33
+        -ms-box-shadow: 0 0 0 0 #9E1F64;
+        box-shadow: 0 0 0 0 #9E1F64
     }
 }
 
@@ -845,13 +845,13 @@ hr {
     }
 
     70% {
-        -o-box-shadow: 0 0 10px 5px #e71a33;
-        box-shadow: 0 0 10px 5px #e71a33
+        -o-box-shadow: 0 0 10px 5px #9E1F64;
+        box-shadow: 0 0 10px 5px #9E1F64
     }
 
     100% {
-        -o-box-shadow: 0 0 0 0 #e71a33;
-        box-shadow: 0 0 0 0 #e71a33
+        -o-box-shadow: 0 0 0 0 #9E1F64;
+        box-shadow: 0 0 0 0 #9E1F64
     }
 }
 
@@ -865,11 +865,11 @@ hr {
     }
 
     70% {
-        box-shadow: 0 0 10px 5px #e71a33
+        box-shadow: 0 0 10px 5px #9E1F64
     }
 
     100% {
-        box-shadow: 0 0 0 0 #e71a33
+        box-shadow: 0 0 0 0 #9E1F64
     }
 }
 
@@ -1443,7 +1443,7 @@ input.search-text {
     font-size: 1rem;
     border-radius: 30px;
     border: 1px solid transparent;
-    background: url(https://me-rohit-harsh.github.io/meds/icons/search-interface-symbol.png) left 9px center/24px no-repeat
+    background: url("/icons/search-interface-symbol.png") left 9px center/24px no-repeat
 }
 
 input.search-text {
