@@ -4,7 +4,7 @@ $(document).ready(function () {
     $(".ham").on("click", function () {
         $("nav ul").toggleClass("showing");
     });
-    $(".navbar-item").on("click", function () {
+    $(".navbar-item li a").on("click", function () {
         $("nav ul").removeClass("showing");
     });
 
