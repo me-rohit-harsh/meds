@@ -2068,3 +2068,9 @@ body.scrollable {
     padding: 20px 0;
     text-align: center;
 }
+.pop-icon {
+    background-color: white;
+    border-radius: 3px;
+    padding: 3px;
+    color: #000;
+}
