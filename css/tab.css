@@ -212,6 +212,14 @@ h6 {
 
 }
 
+@media screen and (min-width:768px) {
+    .navbar-item {
+        height: 90px;
+        padding-top: 20px;
+    }
+
+}
+
 /* logo animation  */
 .site-logoani {
     display: flex;
@@ -237,11 +245,4 @@ h6 {
 
 .logo img {
     margin-top: 18px;
-}
-@media screen and (min-width:768px) {
-    .navbar-item {
-        height: 90px;
-        padding-top: 20px;
-    }
-
 }
