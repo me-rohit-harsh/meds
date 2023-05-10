@@ -254,6 +254,32 @@ h6 {
 
 }
 
+/* logo animation  */
+.site-logoani {
+    display: flex;
+    align-items: center;
+    transform: translateZ(0);
+    margin-left: 10px;
+
+}
+
+#logoani {
+    position: relative;
+    flex: 0 0 3.75rem;
+    width: 4.3rem;
+    z-index: 10;
+}
+
+.site-title {
+    position: relative;
+    overflow-y: hidden;
+    z-index: 10;
+    transform: translateZ(0);
+}
+
+.logo img {
+    margin-top: 18px;
+}
 @media screen and (min-width:768px) {
     .navbar-item {
         height: 90px;
