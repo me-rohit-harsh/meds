@@ -82,8 +82,7 @@ p {
     text-align: justify
 }
 
-.logo,
-.logo img {
+.logo {
     line-height: 60px;
     float: left;
     position: fixed
@@ -96,10 +95,12 @@ nav ul {
     color: #fff
 }
 
-.logo img {
+.logo .logo-images-home {
     margin: 10px;
     margin-top: 18px;
 }
+
+
 
 nav {
     position: fixed;
@@ -111,8 +112,6 @@ nav {
 nav ul {
     transition: 0.3s
 }
-
-
 
 .search li,
 nav ul li {
@@ -148,6 +147,7 @@ nav ul li a {
     border-radius: 5px 5px 0 0
 }
 
+
 .dropdown {
     position: relative;
     display: inline-block;
@@ -170,7 +170,11 @@ nav ul li a {
 }
 
 
-.dropdown:hover p {     background-color: #ffffff;     padding: 0px 3px;     border-radius: 5px 5px 0 0; }
+.dropdown:hover p {
+    background-color: #ffffff;
+    padding: 0px 3px;
+    border-radius: 5px 5px 0 0;
+}
 
 #webCifar,
 .aboutus .right p,
@@ -345,7 +349,6 @@ button {
     .showing {
         max-height: 34em;
         overflow: visible;
-
     }
 
     nav ul li {
@@ -1440,7 +1443,7 @@ input.search-text {
     font-size: 1rem;
     border-radius: 30px;
     border: 1px solid transparent;
-    background: url(https://me-rohit-harsh.github.io/meds/icons/search-interface-symbol.png) left 9px center/24px no-repeat
+    background: url("/icons/search-interface-symbol.png") left 9px center/24px no-repeat
 }
 
 input.search-text {
@@ -2068,6 +2071,7 @@ body.scrollable {
     padding: 20px 0;
     text-align: center;
 }
+
 .pop-icon {
     background-color: white;
     border-radius: 3px;
