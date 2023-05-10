@@ -46,3 +46,45 @@ $(document).ready(function () {
 
     });
 });
+
+
+// logo animation part start 
+const logoaniAnimation = anime.timeline({
+    autoplay: true,
+    delay: 200
+});
+
+logoaniAnimation.add({
+    targets: '#logoani',
+    translateY: [-100, 0],
+    opacity: [0, 1],
+    elasticity: 600,
+    duration: 1600
+}).add({
+    targets: '#logoani-hexagon',
+    rotate: [-90, 0],
+    duration: 1200,
+    elasticity: 600,
+    offset: 100
+}).add({
+    targets: '#logoani-circle',
+    scale: [0, 1],
+    duration: 1200,
+    elasticity: 600,
+    offset: 500
+}).add({
+    targets: '#logoani-mask',
+    scale: [0, 1],
+    duration: 1000,
+    elasticity: 600,
+    offset: 550
+}).add({
+    targets: '#logoani-text',
+    translateX: ['-100%', 0],
+    opacity: [0, 1],
+    duration: 1000,
+    easing: 'easeOutExpo',
+    offset: 1000
+})
+
+restart.addEventListener("click", () => logoaniAnimation.restart());
