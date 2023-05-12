@@ -370,11 +370,6 @@ button {
 
 @media(max-width:806px) {
 
-    .logo img,
-    nav.black .logo img {
-        margin-top: 13px;
-        height: 55px
-    }
 
 
 
