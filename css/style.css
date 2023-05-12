@@ -399,17 +399,19 @@ button {
 @media(max-width:806px) {
 
 
-
+ .logo img,
+    nav.black .logo img {
+        margin-top: 13px;
+        height: 55px;
+        transition-duration: 1s
+    }
 
     .logo {
         position: fixed;
         top: 0
     }
 
-    nav.black .logo img {
-        transition-duration: 1s
-    }
-
+  
 
     nav.black {
         background: #89C2ED;
